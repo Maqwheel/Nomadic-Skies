@@ -18,7 +18,7 @@ displayRedstone:true
 deathpoints:true
 oldDeathpoints:true
 distance:1
-lockNorth:true
+lockNorth:false
 zoom:0
 minimapSize:0
 chunkGrid:-1
@@ -63,14 +63,14 @@ centeredEnlarged:false
 zoomOnEnlarged:0
 minimapTextAlign:0
 waypointsMutualEdit:true
-compassLocation:0
+compassLocation:1
 compassDirectionScale:0
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:1
+minimapShape:0
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0

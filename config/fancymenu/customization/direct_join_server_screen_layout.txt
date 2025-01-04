@@ -2,22 +2,15 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = direct_join_server_screen
-  render_custom_elements_behind_vanilla = true
-  last_edited_time = 1729252003775
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1735993675456
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  custom_menu_title = Play Co-Op
-  [loading_requirement_container_meta:25888b99-6ed0-44c8-9c4d-29b33b807bca-1729251976990] = [groups:][instances:]
-}
-
-menu_background {
-  image_path = [source:local]/config/fancymenu/assets/bg.png
-  slide = false
-  repeat_texture = false
-  background_type = image
+  custom_menu_title = Join Co-Op
+  [loading_requirement_container_meta:02ac75f6-8cb3-457e-82e2-f4c35db3f871-1735993657454] = [groups:][instances:]
 }
 
 customization {
@@ -71,6 +64,106 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 463b97fe-76cd-4315-b297-bf03c7034781-1729223099500
   [loading_requirement_container_meta:463b97fe-76cd-4315-b297-bf03c7034781-1729223099500] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = Server Address
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = f2efaa3e-78d1-4664-a452-463b0906829e-1735990320498
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 400358
+  x = -3
+  y = -101
+  width = 200
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 1830f620-aa3c-4eb4-b3fb-911cf97b1046-1735990320498
+  [loading_requirement_container_meta:1830f620-aa3c-4eb4-b3fb-911cf97b1046-1735990320498] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = Tip: Start your own co-op session from the in-game pause menu!
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 466356bf-5174-4910-9c83-7a5059cb1ba3-1735993450086
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 400358
+  x = -3
+  y = -59
+  width = 200
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 1830f620-aa3c-4eb4-b3fb-911cf97b1046-1735990320498
+  [loading_requirement_container_meta:1830f620-aa3c-4eb4-b3fb-911cf97b1046-1735990320498] = [groups:][instances:]
 }
 
 vanilla_button {
