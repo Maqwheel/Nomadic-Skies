@@ -1,2 +1,0 @@
-caveModeType:1
-dimensionTypeId:eco:the_open_nether

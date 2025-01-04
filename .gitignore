@@ -1,1 +1,20 @@
 .DS_Store
+
+# Individual modpack items
+crash-reports/
+fancymenu_data/
+local/
+logs/
+modernfix/
+patchouli_books/
+XaeroWaypoints_BACKUP*/
+usernamecache.json
+usercache.json
+servers.dat
+servers.dat_old
+options.txt
+screenshots/
+minecraftinstance.json
+xaero/
+schematics/
+saves/
