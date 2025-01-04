@@ -29,3 +29,4 @@ config/xaerominimap_entities.json
 config/voicechat/username-cache.json
 config/sound_physics_remastered/reflectivity.properties
 config/sound_physics_remastered/occlusion.properties
+minecraftinstance.json
