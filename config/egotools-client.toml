@@ -1,0 +1,11 @@
+
+["Client Configs"]
+	#The color to use as the light color when the bar is empty
+	lightBackground = "0xFFAAAAAA"
+	#The color to use as the light color when the bar is empty
+	darkBackground = "0xFF555555"
+	#The color to use as the light color when the bar is full
+	lightFill = "0xFF00FFFF"
+	#The color to use as the light color when the bar is full
+	darkFill = "0xFF00AAAA"
+

@@ -1,0 +1,14 @@
+
+#World
+[world]
+	#Enables ingame rewards on first spawn for Patreons
+	patreon_rewards = true
+	#Enable or disable enchanting of bindings on a bookshelf
+	passive_enchanting = true
+	#The amount of experience levels you need to enchant a binding on a bookshelf
+	#Range: 1 ~ 30
+	binding_enchanting_cost = 3
+	#The amount of experience levels you need to enchant a advanced binding on a bookshelf
+	#Range: 1 ~ 30
+	advanced_binding_enchanting_cost = 6
+

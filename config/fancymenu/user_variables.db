@@ -1,0 +1,14 @@
+type = user_variables
+
+variable {
+  name = show_confirm_button
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = show_continue_button
+  value = true
+  reset_on_launch = false
+}
+

@@ -1,0 +1,6 @@
+
+#General settings
+[general]
+	#Activate the Update-Checker
+	update-checker = true
+

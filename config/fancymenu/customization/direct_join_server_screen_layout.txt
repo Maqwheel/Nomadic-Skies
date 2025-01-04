@@ -1,0 +1,158 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = direct_join_server_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1729252003775
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  custom_menu_title = Play Co-Op
+  [loading_requirement_container_meta:25888b99-6ed0-44c8-9c4d-29b33b807bca-1729251976990] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/bg.png
+  slide = false
+  repeat_texture = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 461fa8c4-a600-4be8-a6aa-d319908f0a6d-1729223099500
+  [executable_action_instance:2534caf1-1ba0-4454-b3e2-1e94b6b45fd2-1729225478273][action_type:opengui] = title_screen
+  [executable_block:461fa8c4-a600-4be8-a6aa-d319908f0a6d-1729223099500][type:generic] = [executables:2534caf1-1ba0-4454-b3e2-1e94b6b45fd2-1729225478273;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Cancel
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 5756761e-4790-4e7b-9466-cec50fe3386f-1729223099500
+  [loading_requirement_container_meta:5756761e-4790-4e7b-9466-cec50fe3386f-1729223099500] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = cc0792c5-caca-47ae-add1-3449848c663b-1729223099500
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 400358
+  x = 0
+  y = 24
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 463b97fe-76cd-4315-b297-bf03c7034781-1729223099500
+  [loading_requirement_container_meta:463b97fe-76cd-4315-b297-bf03c7034781-1729223099500] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 1fce5f15-36c8-47f9-bc51-cda9394275e2-1729222944743
+  [executable_block:1fce5f15-36c8-47f9-bc51-cda9394275e2-1729222944743][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 5b677f9d-ac4b-4a6e-997f-d516ba3db3ff-1729222944743
+  [loading_requirement_container_meta:5b677f9d-ac4b-4a6e-997f-d516ba3db3ff-1729222944743] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = 400382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 220
+  y = 222
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 638dd95d-78aa-4800-bd81-eea8474252e2-1729222944743
+  [loading_requirement_container_meta:638dd95d-78aa-4800-bd81-eea8474252e2-1729222944743] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 099f91cc-2e6f-4164-bb06-a0cbfcc2fbd1-1729222944743
+  [executable_block:099f91cc-2e6f-4164-bb06-a0cbfcc2fbd1-1729222944743][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 2
+  nine_slice_border_y = 2
+  label = Join Game
+  navigatable = true
+  widget_active_state_requirement_container_identifier = b0604f75-3634-49d8-9425-467a8a76281f-1729222944743
+  [loading_requirement_container_meta:b0604f75-3634-49d8-9425-467a8a76281f-1729222944743] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = 400358
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 220
+  y = 198
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e4bc20d0-8464-45c9-8736-8041f4c2df2d-1729222944743
+  [loading_requirement_container_meta:e4bc20d0-8464-45c9-8736-8041f4c2df2d-1729222944743] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

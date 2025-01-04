@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = /Users/matthewmcdermott/Documents/curseforge/minecraft/Instances/Endless Unbound Alpha/saves/Testing
+}
+

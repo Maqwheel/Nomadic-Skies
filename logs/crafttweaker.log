@@ -1,0 +1,22 @@
+[19:12:01.900][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
+[19:12:01.911][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[19:12:01.975][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[19:12:01.976][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[19:12:01.983][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[19:12:02.902][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[19:12:02.902][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.46'
+[19:12:02.902][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.6'
+[19:12:10.304][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[19:12:10.621][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:12:10.654][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[19:12:10.732][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[19:13:26.619][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[19:13:26.637][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:13:26.646][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[19:13:26.651][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[19:13:27.668][INFO][CraftTweaker]: CraftTweaker reload starting!
+[19:13:27.669][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[19:13:27.684][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:13:27.913][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:13:27.918][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[19:13:27.918][INFO][CraftTweaker]: CraftTweaker reload complete!
