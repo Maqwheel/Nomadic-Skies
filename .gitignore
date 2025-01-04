@@ -3,36 +3,37 @@
 
 # Personal usage folders
 crash-reports/
+downloads/
 fancymenu_data/
 local/
 logs/
 modernfix/
 patchouli_books/
-XaeroWaypoints_BACKUP*/
+saves/
+schematics/
 screenshots/
 xaero/
-schematics/
-saves/
+XaeroWaypoints_BACKUP*/
 
 # Personal usage files
-usernamecache.json
-usercache.json
+config/voicechat/username-cache.json
+options.txt
 servers.dat
 servers.dat_old
-options.txt
-config/voicechat/username-cache.json
+usercache.json
+usernamecache.json
 
 # Config files that update every time game is launched and we do not edit
-config/rare-ice.properties
-config/oculus.properties
-config/libraryferret_1.properties
-config/everycomp-hazardous.properties
-rhino.local.properties
 config/defaultworldtype/world-presets.txt
-config/betterfpsdist.json
-config/xaerominimap_entities.json
-config/sound_physics_remastered/reflectivity.properties
 config/sound_physics_remastered/occlusion.properties
+config/sound_physics_remastered/reflectivity.properties
+config/betterfpsdist.json
+config/everycomp-hazardous.properties
+config/libraryferret_1.properties
+config/oculus.properties
+config/rare-ice.properties
+config/xaerominimap_entities.json
+rhino.local.properties
 
 # Misc
 minecraftinstance.json
