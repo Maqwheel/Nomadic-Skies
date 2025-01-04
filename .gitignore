@@ -23,3 +23,9 @@ config/libraryferret_1.properties
 config/everycomp-hazardous.properties
 rhino.local.properties
 minecraftinstance.json
+config/defaultworldtype/world-presets.txt
+config/betterfpsdist.json
+config/xaerominimap_entities.json
+config/voicechat/username-cache.json
+config/sound_physics_remastered/reflectivity.properties
+config/sound_physics_remastered/occlusion.properties
