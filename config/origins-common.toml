@@ -24,7 +24,7 @@
 	[origins."origins:blazeborn"]
 		enabled = true
 		"origins:fire_immunity" = true
-		"origins:nether_spawn" = true
+		"origins:nether_spawn" = false
 		"origins:burning_wrath" = true
 		"origins:hotblooded" = true
 		"origins:water_vulnerability" = true
@@ -70,7 +70,7 @@
 		"origins:more_exhaustion" = true
 
 	[origins."origins:merling"]
-		enabled = true
+		enabled = false
 		"origins:water_breathing" = true
 		"origins:water_vision" = true
 		"origins:aqua_affinity" = true
