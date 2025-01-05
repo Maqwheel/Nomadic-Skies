@@ -6,7 +6,7 @@
 	// Use the list of pre-defined male names when naming villagers.
 	"useDefaultMaleNames": true,
 	// Disabled by default. Whether both custom and default names should be used to name villagers. Custom names will probably not be chosen often due to the amount of default names.
-	"useBothCustomAndDefaultNames": false,
+	"useBothCustomAndDefaultNames": true,
 	// If enabled, also gives modded villagers a name. If you've found a 'villager'-entity that isn't named let me know by opening an issue so I can add it in.
 	"nameModdedVillagers": true,
 	// Whether the profession should be added to the villager's trade screen next to their name.
