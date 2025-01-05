@@ -7,6 +7,12 @@ variable {
 }
 
 variable {
+  name = co-op-guest
+  value = false
+  reset_on_launch = false
+}
+
+variable {
   name = show_continue_button
   value = true
   reset_on_launch = false
@@ -14,7 +20,19 @@ variable {
 
 variable {
   name = co-op-active
-  value = 
+  value = false
   reset_on_launch = true
+}
+
+variable {
+  name = word-1
+  value = vivid
+  reset_on_launch = false
+}
+
+variable {
+  name = word-2
+  value = repeat
+  reset_on_launch = false
 }
 
