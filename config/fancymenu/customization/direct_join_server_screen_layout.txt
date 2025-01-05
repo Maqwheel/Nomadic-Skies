@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = direct_join_server_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1735993675456
+  last_edited_time = 1736064476912
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = Join Co-Op
-  [loading_requirement_container_meta:02ac75f6-8cb3-457e-82e2-f4c35db3f871-1735993657454] = [groups:][instances:]
+  [loading_requirement_container_meta:e56787fd-7f52-4948-a3d4-e4777296d93a-1736064421472] = [groups:][instances:]
 }
 
 customization {
@@ -164,6 +164,126 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 1830f620-aa3c-4eb4-b3fb-911cf97b1046-1735990320498
   [loading_requirement_container_meta:1830f620-aa3c-4eb4-b3fb-911cf97b1046-1735990320498] = [groups:][instances:]
+}
+
+element {
+  linked_variable = join-co-op-address
+  input_field_type = text
+  max_text_length = 10000
+  navigatable = true
+  element_type = fancymenu_customization_item_input_field
+  instance_identifier = bd073e62-2a1c-41c5-8b2b-bd939c8ba1a8-1736063255424
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 400358
+  x = 203
+  y = 78
+  width = 198
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 4257e7f4-6dba-454c-8734-d42620eb017b-1736063255424
+  [loading_requirement_container_meta:4257e7f4-6dba-454c-8734-d42620eb017b-1736063255424] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = IN DEVELOPMENT - PLEASE IGNORE
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 45c98fe7-78f5-44a6-9c5b-c92031c0a0c0-1736063390382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 400358
+  x = 202
+  y = 62
+  width = 200
+  height = 15
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = ddc9057b-fa3a-4691-b4eb-e4f5657fafa8-1736063390382
+  [loading_requirement_container_meta:ddc9057b-fa3a-4691-b4eb-e4f5657fafa8-1736063390382] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = c967d4d0-f3ea-4d85-8c83-8750afc2d3ab-1736063575990
+  [executable_action_instance:01c1dcad-80fc-437a-b995-216a6902c107-1736063676160][action_type:joinserver] = {"placeholder":"getvariable","values":{"name":"join-co-op-address"}}.oc.e4mc.link
+  [executable_block:c967d4d0-f3ea-4d85-8c83-8750afc2d3ab-1736063575990][type:generic] = [executables:01c1dcad-80fc-437a-b995-216a6902c107-1736063676160;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = GO GO GADGET!
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 2d8468ed-5d69-4220-a5ab-647bbb70a9f3-1736063575990
+  [loading_requirement_container_meta:2d8468ed-5d69-4220-a5ab-647bbb70a9f3-1736063575990] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = aa74ec53-00b4-4f85-84ac-8e5d906a89c1-1736063575990
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 400358
+  x = 202
+  y = 107
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 676297bc-b715-4de7-a687-e7fa83cacbbc-1736063575990
+  [loading_requirement_container_meta:676297bc-b715-4de7-a687-e7fa83cacbbc-1736063575990] = [groups:][instances:]
 }
 
 vanilla_button {
