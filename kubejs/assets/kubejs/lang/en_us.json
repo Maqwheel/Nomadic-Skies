@@ -1,4 +1,10 @@
 {
+    "item.create.red_sand_paper": "Red Sandpaper",
+    "item.create.sand_paper": "Sandpaper",
+    "item.createsandpapers.black_sand_paper": "Black Sandpaper",
+    "item.createsandpapers.orange_sand_paper": "Orange Sandpaper",
+    "item.createsandpapers.soul_sand_paper": "Soul Sandpaper",
+    "item.createsandpapers.white_sand_paper": "White Sandpaper",
     "item.nebulus_jungle_trader.machety": "Wood Machete",
     "item.nebulus_jungle_trader.stone_machety": "Stone Machete",
     "item.nebulus_jungle_trader.iron_machety": "Iron Machete",
