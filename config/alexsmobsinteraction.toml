@@ -1,7 +1,7 @@
 
 [General]
 	#Gives you the crimson wiki book at start
-	CRIMSON_WIKI_ENABLED = true
+	CRIMSON_WIKI_ENABLED = false
 	#Prey like animals flee from predator like animals
 	PREY_FEAR_ENABLED = true
 	#Stuns charging animals when targeting the player with the new enchantment, 'Final Stand'
