@@ -4,7 +4,7 @@
 	[origins."origins:enderian"]
 		enabled = true
 		"origins:throw_ender_pearl" = true
-		"origins:water_vulnerability" = true
+		"origins:water_vulnerability" = false
 		"origins:pumpkin_hate" = true
 		"origins:extra_reach" = true
 		"origins:ender_particles" = true
