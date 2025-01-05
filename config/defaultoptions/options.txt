@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -32,9 +32,9 @@ damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
 renderDistance:8
-simulationDistance:12
+simulationDistance:7
 entityDistanceScaling:1.0
-guiScale:0
+guiScale:3
 particles:0
 maxFps:260
 graphicsMode:1
@@ -42,9 +42,9 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","tinyskeletons:main","file/SmoothFont_1.20.zip","file/Createful-plaques-1.0.zip","file/VerticalNuggets-1.20-1.0.2.1.zip","file/UniqueDyes.zip","file/SRU_1-3.zip","file/Eureka Create 1.1.zip","file/Glowing Modded Ores V4.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip"]
-incompatibleResourcePacks:["file/Glowing Modded Ores V4.zip"]
-lastServer:harsh-inside.oc.e4mc.link
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","tinyskeletons:main","Nomadic Skies GUI","Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","Createful-plaques-1.0.zip","Eureka Create 1.1.zip","Glowing Modded Ores V4.zip","SRU_1-3.zip","SmoothFont_1.20.zip","UniqueDyes.zip","VerticalNuggets-1.20-1.0.2.1.zip"]
+incompatibleResourcePacks:["Glowing Modded Ores V4.zip"]
+lastServer:cycle-know.oc.e4mc.link
 lang:en_nz
 soundDevice:""
 chatVisibility:0
