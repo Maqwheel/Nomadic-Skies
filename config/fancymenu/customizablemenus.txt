@@ -42,9 +42,6 @@ net.minecraft.client.gui.screens.SkinCustomizationScreen {
 org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
 }
 
-net.irisshaders.iris.gui.screen.ShaderPackScreen {
-}
-
 net.minecraft.client.gui.screens.LanguageSelectScreen {
 }
 
@@ -55,9 +52,6 @@ net.minecraft.client.gui.screens.SoundOptionsScreen {
 }
 
 net.minecraft.client.gui.screens.controls.ControlsScreen {
-}
-
-net.minecraft.client.gui.screens.ChatOptionsScreen {
 }
 
 net.minecraft.client.gui.screens.AccessibilityOptionsScreen {
@@ -88,5 +82,8 @@ net.minecraft.client.gui.screens.DisconnectedScreen {
 }
 
 net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.ChatOptionsScreen {
 }
 
