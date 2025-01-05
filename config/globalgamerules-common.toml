@@ -63,7 +63,7 @@
 		natural_regeneration = true
 		#What percentage of players must sleep to skip the night.
 		#Range: > 0
-		players_sleeping_percentage = 100
+		players_sleeping_percentage = 1
 		#The number of blocks outward from the world spawn coordinates that a player spawns in when first joining a server or when dying without a personal spawnpoint. Has no effect on servers where the default game mode is Adventure.
 		#Range: > 0
 		spawn_radius = 10
@@ -135,7 +135,7 @@
 #A collection of misc configs
 [misc]
 	#If gamerules should be saved to config on world unload
-	save_gamerules = true
+	save_gamerules = false
 	#A comma separated list of commands to run on world join, @p is replaced with joining player name, command is run by the server
 	#Example: default_commands = ["/tellraw @p [\"\",{\"text\":\"Hi \"},{\"text\":\"@p\",\"color\":\"aqua\"}]"]
 	default_commands = []
