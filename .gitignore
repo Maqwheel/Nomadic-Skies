@@ -33,6 +33,7 @@ config/betterfpsdist.json
 config/disable_new_world_screen_1.properties
 config/embeddium-fingerprint.json
 config/everycomp-hazardous.properties
+config/fancymenu/user_variables.db
 config/libraryferret_1.properties
 config/oculus.properties
 config/rare-ice.properties

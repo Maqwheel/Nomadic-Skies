@@ -20,7 +20,7 @@ variable {
 
 variable {
   name = co-op-active
-  value = false
+  value = 
   reset_on_launch = true
 }
 
