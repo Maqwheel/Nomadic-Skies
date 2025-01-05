@@ -25,6 +25,7 @@ usernamecache.json
 
 # Config files that update every time game is launched and we do not edit
 config/defaultworldtype/world-presets.txt
+config/forgeendertech/
 config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 config/betterfpsdist.json
