@@ -28,6 +28,8 @@ config/defaultworldtype/world-presets.txt
 config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 config/betterfpsdist.json
+config/disable_new_world_screen_1.properties
+config/embeddium-fingerprint.json
 config/everycomp-hazardous.properties
 config/libraryferret_1.properties
 config/oculus.properties

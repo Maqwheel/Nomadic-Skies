@@ -8,6 +8,12 @@
 			chocolate_cake = true
 			honey_cake = true
 
+		[types.cake.ironsspellsdelight]
+			blood_vial_cake = true
+
+		[types.cake.mowziesdelight]
+			suns_cake = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.biomesoplenty]
