@@ -8,7 +8,7 @@ variable {
 
 variable {
   name = co-op-guest
-  value = true
+  value = false
   reset_on_launch = false
 }
 

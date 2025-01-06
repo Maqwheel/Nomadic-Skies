@@ -26,20 +26,20 @@ ServerEvents.recipes(
         )
 
         event.recipes.farmersdelight.cutting(
-            'minecraft:sculk',
-            '#forge:tools/knives',
+            "minecraft:sculk",
+            "#forge:tools/knives",
             [
-                Item.of('minecraft:echo_shard').withChance(0.25)
+                Item.of("minecraft:echo_shard").withChance(0.25)
             ]
         );
 
         event.recipes.farmersdelight.cooking(
             [
-                'minecraft:lapis_lazuli',
-                'minecraft:lapis_lazuli',
-                'minecraft:minecraft:amethyst_shard',
-                'minecraft:minecraft:amethyst_shard',
-                'minecraft:emerald'
+                "minecraft:lapis_lazuli",
+                "minecraft:lapis_lazuli",
+                "minecraft:amethyst_shard",
+                "minecraft:amethyst_shard",
+                "minecraft:emerald"
             ],
             Item.of("irons_spellbooks:arcane_essence", 7), // output
             10, // exp
@@ -49,9 +49,9 @@ ServerEvents.recipes(
             [
                 "irons_spellbooks:arcane_essence",
                 "irons_spellbooks:arcane_essence",
-                'minecraft:blaze_powder',
-                'minecraft:blaze_powder',
-                'minecraft:netherite_scrap',
+                "minecraft:blaze_powder",
+                "minecraft:blaze_powder",
+                "minecraft:netherite_scrap",
             ],
             Item.of("irons_spellbooks:cinder_essence", 7), // output
             50, // exp
@@ -60,11 +60,11 @@ ServerEvents.recipes(
 
         event.recipes.farmersdelight.cooking(
             [
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:arcane_essence',
-                'minecraft:ink_sac',
-                'minecraft:ink_sac',
-                'minecraft:ink_sac'
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:arcane_essence",
+                "minecraft:ink_sac",
+                "minecraft:ink_sac",
+                "minecraft:ink_sac"
             ],
             Item.of("irons_spellbooks:common_ink", 3), // output
             10, // exp
@@ -73,9 +73,9 @@ ServerEvents.recipes(
         );
         event.recipes.farmersdelight.cooking(
             [
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:arcane_essence',
-                'minecraft:glow_ink_sac',
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:arcane_essence",
+                "minecraft:glow_ink_sac",
                 "irons_spellbooks:common_ink",
                 "irons_spellbooks:common_ink"
             ],
@@ -86,10 +86,10 @@ ServerEvents.recipes(
         );
         event.recipes.farmersdelight.cooking(
             [
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:arcane_essence',
-                'minecraft:lapis_lazuli',
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:arcane_essence",
+                "minecraft:lapis_lazuli",
                 "irons_spellbooks:uncommon_ink",
                 "irons_spellbooks:uncommon_ink"
             ],
@@ -100,10 +100,10 @@ ServerEvents.recipes(
         );
         event.recipes.farmersdelight.cooking(
             [
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:blood_vial',
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:blood_vial",
                 "irons_spellbooks:rare_ink",
                 "irons_spellbooks:rare_ink"
             ],
@@ -114,10 +114,10 @@ ServerEvents.recipes(
         );
         event.recipes.farmersdelight.cooking(
             [
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:arcane_essence',
-                'irons_spellbooks:lightning_bottle',
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:arcane_essence",
+                "irons_spellbooks:lightning_bottle",
                 "irons_spellbooks:epic_ink",
                 "irons_spellbooks:epic_ink"
             ],

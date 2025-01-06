@@ -1,6 +1,9 @@
 # Operating system specific files
 .DS_Store
 
+# IDE files
+.vscode/
+
 # Personal usage folders
 crash-reports/
 downloads/
