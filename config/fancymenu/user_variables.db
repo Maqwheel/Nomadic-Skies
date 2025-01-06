@@ -2,13 +2,13 @@ type = user_variables
 
 variable {
   name = show_confirm_button
-  value = 
+  value = false
   reset_on_launch = true
 }
 
 variable {
-  name = co-op-guest
-  value = true
+  name = rts-countdown
+  value = 
   reset_on_launch = false
 }
 
@@ -19,20 +19,19 @@ variable {
 }
 
 variable {
-  name = co-op-active
-  value = 
-  reset_on_launch = true
-}
-
-variable {
   name = word-1
-  value = ski
+  value = 
   reset_on_launch = false
 }
 
 variable {
   name = word-2
-  value = romance
+  value = 
   reset_on_launch = false
 }
 
+variable {
+  name = co-op-type
+  value = none
+  reset_on_launch = true
+}
