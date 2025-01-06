@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "trigger_on_join": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "custom_nether_portals:setup"
+    }
+}
