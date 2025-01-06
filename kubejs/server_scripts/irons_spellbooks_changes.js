@@ -37,8 +37,8 @@ ServerEvents.recipes(
             [
                 'minecraft:lapis_lazuli',
                 'minecraft:lapis_lazuli',
-                'minecraft:blaze_powder',
-                'minecraft:blaze_powder',
+                'minecraft:minecraft:amethyst_shard',
+                'minecraft:minecraft:amethyst_shard',
                 'minecraft:emerald'
             ],
             Item.of("irons_spellbooks:arcane_essence", 7), // output
