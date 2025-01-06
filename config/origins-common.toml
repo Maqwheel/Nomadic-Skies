@@ -92,7 +92,7 @@
 		"origins:phantomize_overlay" = true
 
 	[origins."medievalorigins:dwarf"]
-		enabled = true
+		enabled = false
 		"medievalorigins:dwarf/dwarven_tech" = true
 		"medievalorigins:dwarf/miniature" = true
 		"medievalorigins:dwarf/nocturnal_eyes" = true
@@ -274,7 +274,7 @@
 		"survive:cold_blooded" = true
 
 	[origins."medievalorigins:incubus"]
-		enabled = true
+		enabled = false
 		"medievalorigins:incubus/demon_fire" = true
 		"medievalorigins:incubus/hellborne" = true
 		"medievalorigins:incubus/carnivore" = true
@@ -295,7 +295,7 @@
 		"origins_toughasnails:thermal_regulator" = true
 
 	[origins."medievalorigins:ogre"]
-		enabled = true
+		enabled = false
 		"medievalorigins:ogre/gargantuan" = true
 		"medievalorigins:ogre/bloodlust" = true
 		"medievalorigins:ogre/ravager" = true
@@ -350,4 +350,12 @@
 		"origins:carnivore" = true
 		"origins:master_of_webs" = true
 		"origins:arthropod" = true
+
+	[origins."icarae_origin:icarae"]
+		enabled = true
+		"icarae_origin:wings" = true
+		"origins:aerial_combatant" = true
+		"icarae_origin:hollow_bones" = true
+		"origins:no_shield" = true
+		"origins:carnivore" = true
 
