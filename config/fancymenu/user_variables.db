@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = show_confirm_button
-  value = false
+  value = 
   reset_on_launch = true
 }
 
@@ -35,3 +35,4 @@ variable {
   value = none
   reset_on_launch = true
 }
+
