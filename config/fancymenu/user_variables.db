@@ -8,7 +8,7 @@ variable {
 
 variable {
   name = co-op-guest
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -26,13 +26,13 @@ variable {
 
 variable {
   name = word-1
-  value = vivid
+  value = ski
   reset_on_launch = false
 }
 
 variable {
   name = word-2
-  value = repeat
+  value = romance
   reset_on_launch = false
 }
 
