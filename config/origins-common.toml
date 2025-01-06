@@ -257,7 +257,7 @@
 		"origins_toughasnails:cold_resistance" = true
 
 	[origins."medievalorigins:siren"]
-		enabled = true
+		enabled = false
 		"medievalorigins:siren/amphibious" = true
 		"medievalorigins:siren/siren_song" = true
 		"medievalorigins:siren/holy_water" = true
