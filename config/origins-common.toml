@@ -1146,20 +1146,20 @@
 		enabled = true
 		"origins:strong_arms" = true
 		"origins:strong_arms_break_speed" = true
-		"origins:water_vulnerability" = true
+		"origins:water_vulnerability" = false
 		"origins-plus-plus:part-robot/already_iron" = true
-		"origins-plus-plus:part-robot/boiling" = true
-		"origins-plus-plus:part-robot/effect_immune" = true
-		"origins-plus-plus:part-robot/heavy" = true
+		"origins-plus-plus:part-robot/boiling" = false
+		"origins-plus-plus:part-robot/effect_immune" = false
+		"origins-plus-plus:part-robot/heavy" = false
 		"origins-plus-plus:part-robot/laser" = true
 		"origins-plus-plus:part-robot/no_regeneration" = true
 		"origins-plus-plus:part-robot/overheat" = true
 		"origins-plus-plus:part-robot/rapid_laser" = true
 		"origins-plus-plus:part-robot/regenerate" = true
-		"origins-plus-plus:part-robot/steel_skin" = true
+		"origins-plus-plus:part-robot/steel_skin" = false
 		"origins-plus-plus:part-robot/tank_skin" = true
 		"origins-plus-plus:part-robot/unexhausted" = true
-		"origins-plus-plus:part-robot/water_breather" = true
+		"origins-plus-plus:part-robot/water_breather" = false
 
 	[origins."origins-plus-plus:enigma"]
 		enabled = false
