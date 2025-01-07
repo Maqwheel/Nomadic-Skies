@@ -2184,7 +2184,7 @@
 		"medievalorigins:wood_elf/towering" = false
 		"medievalorigins:wood_elf/empowered_shot" = true
 		"medievalorigins:wood_elf/gear_spawn" = true
-		"medievalorigins:wood_elf/steward" = true
+		"medievalorigins:wood_elf/steward" = false
 		"medievalorigins:wood_elf/forest_vision" = true
 		"medievalorigins:wood_elf/archer" = true
 
