@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:8
-simulationDistance:7
+renderDistance:16
+simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
@@ -42,9 +42,9 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","tinyskeletons:main","Nomadic Skies GUI","Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","Createful-plaques-1.0.zip","Eureka Create 1.1.zip","Glowing Modded Ores V4.zip","SRU_1-3.zip","SmoothFont_1.20.zip","UniqueDyes.zip","VerticalNuggets-1.20-1.0.2.1.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","tinyskeletons:main","Nomadic Skies GUI","Glowing Modded Ores V4.zip","SmoothFont_1.20.zip","UniqueDyes.zip","VerticalNuggets-1.20-1.0.2.1.zip","Renewed Plaques 1.20.zip"]
 incompatibleResourcePacks:["Glowing Modded Ores V4.zip"]
-lastServer:cycle-know.oc.e4mc.link
+lastServer:vivid-repeat.oc.e4mc.link
 lang:en_nz
 soundDevice:""
 chatVisibility:0
@@ -84,9 +84,9 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.009757001931567361
-soundCategory_music:1.0
-soundCategory_record:1.0
+soundCategory_master:0.20875586368653426
+soundCategory_music:0.12694395539906098
+soundCategory_record:0.4817616637323944
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0

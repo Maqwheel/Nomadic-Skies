@@ -258,3 +258,6 @@ key.findmyfriends.gui
 key.relics.ability_list
 key.fog.toggle
 key.questapi.quest_menu
+key.azurelib.reload
+key.azurelib.scope
+key.azurelib.fire
