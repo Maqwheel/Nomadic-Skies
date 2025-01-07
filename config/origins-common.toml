@@ -1143,7 +1143,7 @@
 		"origins-plus-plus:iceling/water" = true
 
 	[origins."origins-plus-plus:part_robot"]
-		enabled = false
+		enabled = true
 		"origins:strong_arms" = true
 		"origins:strong_arms_break_speed" = true
 		"origins:water_vulnerability" = true
@@ -1445,7 +1445,7 @@
 		"origins-plus-plus:lunar-path/wither_immunity" = true
 
 	[origins."origins-plus-plus:artificial_construct"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:artificial-construct/battery" = true
 		"origins-plus-plus:artificial-construct/battery_resource" = true
 		"origins-plus-plus:artificial-construct/dispenser" = true
