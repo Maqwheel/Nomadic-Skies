@@ -639,7 +639,7 @@
 		"origins-plus-plus:ryu/winged" = true
 
 	[origins."origins-plus-plus:vishaichian"]
-		enabled = true
+		enabled = false
 		"origins:no_cobweb_slowdown" = true
 		"origins:fall_immunity" = true
 		"origins-plus-plus:vishaichian/chicken_status_clear" = true
