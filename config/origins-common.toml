@@ -159,7 +159,7 @@
 		"origins-plus-plus:wizard/why" = true
 
 	[origins."origins-plus-plus:ravager"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:ravager/attributes" = true
 		"origins-plus-plus:ravager/axe_strength" = true
 		"origins-plus-plus:ravager/bad_omen_on_death" = true
