@@ -166,7 +166,7 @@
 		"origins-plus-plus:ravager/clumsy" = true
 		"origins-plus-plus:ravager/dash" = true
 		"origins-plus-plus:ravager/exhaust" = true
-		"origins-plus-plus:ravager/fear" = true
+		"origins-plus-plus:ravager/fear" = false
 		"origins-plus-plus:ravager/hard_hitting" = true
 		"origins-plus-plus:ravager/heavy_armor" = true
 		"origins-plus-plus:ravager/heavy_footed" = true
