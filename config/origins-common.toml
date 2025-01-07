@@ -2,7 +2,7 @@
 [origins]
 
 	[origins."origins:enderian"]
-		enabled = true
+		enabled = false
 		"origins:throw_ender_pearl" = true
 		"origins:water_vulnerability" = false
 		"origins:pumpkin_hate" = true
@@ -11,7 +11,7 @@
 		"origins:damage_from_potions" = true
 
 	[origins."origins:arachnid"]
-		enabled = true
+		enabled = false
 		"origins:climbing" = true
 		"origins:master_of_webs" = true
 		"origins:carnivore" = false
@@ -33,7 +33,7 @@
 		"origins:damage_from_potions" = true
 
 	[origins."origins:avian"]
-		enabled = true
+		enabled = false
 		"origins:slow_falling" = true
 		"origins:fresh_air" = true
 		"origins:like_air" = true
@@ -52,7 +52,7 @@
 		"origins:cat_vision" = true
 
 	[origins."origins:elytrian"]
-		enabled = true
+		enabled = false
 		"origins:elytra" = true
 		"origins:launch_into_air" = true
 		"origins:aerial_combatant" = true
@@ -61,7 +61,7 @@
 		"origins:more_kinetic_damage" = true
 
 	[origins."origins:shulk"]
-		enabled = true
+		enabled = false
 		"origins:shulker_inventory" = true
 		"origins:natural_armor" = true
 		"origins:strong_arms" = true
@@ -92,7 +92,7 @@
 		"origins:phantomize_overlay" = true
 
 	[origins."origins-plus-plus:land_shark"]
-		enabled = true
+		enabled = false
 		"origins:carnivore" = true
 		"origins:aqua_affinity" = true
 		"origins:like_water" = true
@@ -107,7 +107,7 @@
 		"origins-plus-plus:land-shark/speedy" = true
 
 	[origins."origins-plus-plus:dullahan"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:dullahan/abilities/hell_chain" = true
 		"origins-plus-plus:dullahan/abilities/nightmare_steed" = true
 		"origins-plus-plus:dullahan/abilities/skull_bomb" = true
@@ -121,7 +121,7 @@
 		"origins-plus-plus:dullahan/debuffs/soul_seal" = true
 
 	[origins."origins-plus-plus:demi_god"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:demi-god/cake" = true
 		"origins-plus-plus:demi-god/cursed" = true
 		"origins-plus-plus:demi-god/fire" = true
@@ -134,7 +134,7 @@
 		"origins-plus-plus:demi-god/raw_meat_buff" = true
 
 	[origins."origins-plus-plus:wizard"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins-plus-plus:wizard/ball" = true
 		"origins-plus-plus:wizard/broom" = true
@@ -226,7 +226,7 @@
 		"origins-plus-plus:technomancer/technomancers_curse" = true
 
 	[origins."origins-plus-plus:spirit_ram"]
-		enabled = true
+		enabled = false
 		"origins:water_vulnerability" = true
 		"origins-plus-plus:spirit-ram/color" = true
 		"origins-plus-plus:spirit-ram/hearts" = true
@@ -238,7 +238,7 @@
 		"origins-plus-plus:spirit-ram/phase" = true
 
 	[origins."origins-plus-plus:dolphin"]
-		enabled = true
+		enabled = false
 		"origins:aqua_affinity" = true
 		"origins:fall_immunity" = true
 		"origins:like_water" = true
@@ -256,7 +256,7 @@
 		"origins-plus-plus:dolphin/water_vision" = true
 
 	[origins."origins-plus-plus:glacier"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:glacier/chilly_person" = true
 		"origins-plus-plus:glacier/cold_blooded" = true
 		"origins-plus-plus:glacier/cold_feet" = true
@@ -281,7 +281,7 @@
 		"origins-plus-plus:glacier/snowy_sprinter" = true
 
 	[origins."origins-plus-plus:voidling/voidling"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins-plus-plus:voidling/brittle_bones" = true
 		"origins-plus-plus:voidling/light_weakness" = true
@@ -290,7 +290,7 @@
 		"origins-plus-plus:voidling/voidling_form" = true
 
 	[origins."origins-plus-plus:devine_architect"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:devine-architect/charge" = true
 		"origins-plus-plus:devine-architect/distrust" = true
 		"origins-plus-plus:devine-architect/end_recipes" = true
@@ -305,7 +305,7 @@
 		"origins-plus-plus:devine-architect/unnatural_regeneration" = true
 
 	[origins."origins-plus-plus:raptus"]
-		enabled = true
+		enabled = false
 		"origins:tailwind" = true
 		"origins:fall_immunity" = true
 		"origins:carnivore" = true
@@ -317,7 +317,7 @@
 		"origins-plus-plus:raptus/smaller_body" = true
 
 	[origins."origins-plus-plus:wailing_one"]
-		enabled = true
+		enabled = false
 		"origins:ender_particles" = true
 		"origins:burn_in_daylight" = true
 		"origins:water_vulnerability" = true
@@ -341,7 +341,7 @@
 		"origins-plus-plus:wailing-one/wail" = true
 
 	[origins."origins-plus-plus:manipulator"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:manipulator/antigravity_arrow" = true
 		"origins-plus-plus:manipulator/cycle" = true
 		"origins-plus-plus:manipulator/dirt_hut" = true
@@ -356,7 +356,7 @@
 		"origins-plus-plus:manipulator/spectral_energy_shot" = true
 
 	[origins."origins-plus-plus:sunken_sailor"]
-		enabled = true
+		enabled = false
 		"origins:aqua_affinity" = true
 		"origins:burn_in_daylight" = true
 		"origins-plus-plus:sunken-sailor/ignore_water" = true
@@ -367,7 +367,7 @@
 		"origins-plus-plus:sunken-sailor/water_falling" = true
 
 	[origins."origins-plus-plus:blazian"]
-		enabled = true
+		enabled = false
 		"origins:burning_wrath" = true
 		"origins:fire_immunity" = true
 		"origins:water_vulnerability" = true
@@ -386,7 +386,7 @@
 		"origins-plus-plus:blazian/slow_fall_clear" = true
 
 	[origins."origins-plus-plus:alien_axolotl"]
-		enabled = true
+		enabled = false
 		"origins:more_kinetic_damage" = true
 		"origins-plus-plus:alien-axolotl/a_reminder" = true
 		"origins-plus-plus:alien-axolotl/adapted_oceaner" = true
@@ -405,7 +405,7 @@
 		"origins-plus-plus:alien-axolotl/traitor" = true
 
 	[origins."origins-plus-plus:binturong"]
-		enabled = true
+		enabled = false
 		"origins:fragile" = true
 		"origins:climbing" = true
 		"origins:fall_immunity" = true
@@ -429,7 +429,7 @@
 		"origins-plus-plus:binturong/too_heavy" = true
 
 	[origins."origins-plus-plus:withered_skeletian"]
-		enabled = true
+		enabled = false
 		"origins:fire_immunity" = true
 		"origins-plus-plus:withered-skeletian/immune" = true
 		"origins-plus-plus:withered-skeletian/nether_inhabitant" = true
@@ -445,7 +445,7 @@
 		"origins-plus-plus:withered-skeletian/withering_presence" = true
 
 	[origins."origins-plus-plus:panoptican"]
-		enabled = true
+		enabled = false
 		"origins:extra_reach" = true
 		"origins-plus-plus:panoptican/air_speed_boost" = true
 		"origins-plus-plus:panoptican/bystander" = true
@@ -459,7 +459,7 @@
 		"origins-plus-plus:panoptican/toggle" = true
 
 	[origins."origins-plus-plus:rift_mage"]
-		enabled = true
+		enabled = false
 		"origins:fall_immunity" = true
 		"origins-plus-plus:rift-mage/city_memory" = true
 		"origins-plus-plus:rift-mage/frail" = true
@@ -484,7 +484,7 @@
 		"origins-plus-plus:drakonwither/wither_skull" = true
 
 	[origins."origins-plus-plus:chimaera"]
-		enabled = true
+		enabled = false
 		"origins:climbing" = true
 		"origins-plus-plus:chimaera/aggression" = true
 		"origins-plus-plus:chimaera/anoxic" = true
@@ -498,7 +498,7 @@
 		"origins-plus-plus:chimaera/xenite_implants" = true
 
 	[origins."origins-plus-plus:golden_golem"]
-		enabled = true
+		enabled = false
 		"origins:light_armor" = true
 		"origins-plus-plus:golden-golem/extra_damage" = true
 		"origins-plus-plus:golden-golem/gold_color" = true
@@ -511,7 +511,7 @@
 		"origins-plus-plus:golden-golem/water" = true
 
 	[origins."origins-plus-plus:ignisian"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:ignisian/archdemon_size" = true
 		"origins-plus-plus:ignisian/brawler" = true
 		"origins-plus-plus:ignisian/crimson" = true
@@ -534,7 +534,7 @@
 		"origins-plus-plus:ignisian/sluggish_break" = true
 
 	[origins."origins-plus-plus:magmean"]
-		enabled = true
+		enabled = false
 		"origins:nether_spawn" = true
 		"origins:water_vulnerability" = true
 		"origins:fire_immunity" = true
@@ -550,7 +550,7 @@
 		"origins-plus-plus:magmean/spicy_hands" = true
 
 	[origins."origins-plus-plus:light_mage"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:light-mage/accelerate" = true
 		"origins-plus-plus:light-mage/ally" = true
 		"origins-plus-plus:light-mage/army" = true
@@ -584,7 +584,7 @@
 		"origins-plus-plus:light-mage/team" = true
 
 	[origins."origins-plus-plus:thornling"]
-		enabled = true
+		enabled = false
 		"origins:fragile" = true
 		"origins-plus-plus:thornling/conductor" = true
 		"origins-plus-plus:thornling/decay" = true
@@ -595,7 +595,7 @@
 		"origins-plus-plus:thornling/thorns" = true
 
 	[origins."origins-plus-plus:volcanic_dragon"]
-		enabled = true
+		enabled = false
 		"origins:carnivore" = true
 		"origins:elytra" = true
 		"origins:water_vulnerability" = true
@@ -614,7 +614,7 @@
 		"origins-plus-plus:volcanic-dragon/weakness_in_cold" = true
 
 	[origins."origins-plus-plus:earth_spirit"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:earth-spirit/ignore_water" = true
 		"origins-plus-plus:earth-spirit/rock_skin" = true
 		"origins-plus-plus:earth-spirit/stone_power" = true
@@ -654,7 +654,7 @@
 		"origins-plus-plus:vishaichian/upgrade/upgrade_strength" = true
 
 	[origins."origins-plus-plus:pixie"]
-		enabled = true
+		enabled = false
 		"origins:elytra" = true
 		"origins:fall_immunity" = true
 		"origins:vegetarian" = true
@@ -667,7 +667,7 @@
 		"origins-plus-plus:pixie/speed" = true
 
 	[origins."origins-plus-plus:dark_mage"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:dark-mage/absorption" = true
 		"origins-plus-plus:dark-mage/damage" = true
 		"origins-plus-plus:dark-mage/darkness" = true
@@ -713,7 +713,7 @@
 		"origins-plus-plus:end-mage/waypoint" = true
 
 	[origins."origins-plus-plus:ebon_wing"]
-		enabled = true
+		enabled = false
 		"origins:water_vulnerability" = true
 		"origins:carnivore" = true
 		"origins:more_exhaustion" = true
@@ -746,7 +746,7 @@
 		"origins-plus-plus:ram/ram" = true
 
 	[origins."origins-plus-plus:deranged"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:deranged/arrow_effect" = true
 		"origins-plus-plus:deranged/breathing" = true
 		"origins-plus-plus:deranged/dart" = true
@@ -789,7 +789,7 @@
 		"origins-plus-plus:rat/vicious_bite" = true
 
 	[origins."origins-plus-plus:beaver"]
-		enabled = true
+		enabled = false
 		"origins:more_exhaustion" = true
 		"origins:nine_lives" = true
 		"origins-plus-plus:beaver/aquatic" = true
@@ -800,7 +800,7 @@
 		"origins-plus-plus:beaver/storage" = true
 
 	[origins."origins-plus-plus:half_wither"]
-		enabled = true
+		enabled = false
 		"origins:nether_spawn" = true
 		"origins-plus-plus:half-wither/exhaust" = true
 		"origins-plus-plus:half-wither/immunity" = true
@@ -821,7 +821,7 @@
 		"origins-plus-plus:voidling/winged_limits" = true
 
 	[origins."origins-plus-plus:red_panda"]
-		enabled = true
+		enabled = false
 		"origins:climbing" = true
 		"origins-plus-plus:red-panda/bamboo_eater" = true
 		"origins-plus-plus:red-panda/cute" = true
@@ -832,7 +832,7 @@
 		"origins-plus-plus:red-panda/nocturnal" = true
 
 	[origins."origins-plus-plus:sporeling"]
-		enabled = true
+		enabled = false
 		"origins:tailwind" = true
 		"origins:slow_falling" = true
 		"origins-plus-plus:sporeling/decomposer" = true
@@ -872,7 +872,7 @@
 		"origins-plus-plus:boarling/tough" = true
 
 	[origins."origins-plus-plus:insect"]
-		enabled = true
+		enabled = false
 		"origins:climbing" = true
 		"origins:fall_immunity" = true
 		"origins-plus-plus:insect/ankle_bite" = true
@@ -886,7 +886,7 @@
 		"origins-plus-plus:insect/water_slowness" = true
 
 	[origins."origins-plus-plus:candyperson"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:candyperson/cake_master" = true
 		"origins-plus-plus:candyperson/cookie_master" = true
 		"origins-plus-plus:candyperson/favorite_food" = true
@@ -919,7 +919,7 @@
 		"origins-plus-plus:spectre/weakened" = true
 
 	[origins."origins-plus-plus:anomaly"]
-		enabled = true
+		enabled = false
 		"origins:fall_immunity" = true
 		"origins-plus-plus:anomaly/blinding_light" = true
 		"origins-plus-plus:anomaly/eternity" = true
@@ -933,7 +933,7 @@
 		"origins-plus-plus:anomaly/unstable" = true
 
 	[origins."origins-plus-plus:sand_walker"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:sand-walker/cold_hatred" = true
 		"origins-plus-plus:sand-walker/desert_spawn" = true
 		"origins-plus-plus:sand-walker/flesh_eater" = true
@@ -944,7 +944,7 @@
 		"origins-plus-plus:sand-walker/worse_steak" = true
 
 	[origins."origins-plus-plus:ninetails"]
-		enabled = true
+		enabled = false
 		"origins:water_vulnerability" = true
 		"origins:fall_immunity" = true
 		"origins:fire_immunity" = true
@@ -956,7 +956,7 @@
 		"origins-plus-plus:ninetails/willow" = true
 
 	[origins."origins-plus-plus:shadow"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:shadow/behind_you" = true
 		"origins-plus-plus:shadow/cloud" = true
 		"origins-plus-plus:shadow/fragile" = true
@@ -982,7 +982,7 @@
 		"origins-plus-plus:goolien/unwieldy" = true
 
 	[origins."origins-plus-plus:shifter"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:shifter/shift_bar" = true
 		"origins-plus-plus:shifter/no_elytra" = true
 		"origins-plus-plus:shifter/shift_arachnid" = true
@@ -1058,7 +1058,7 @@
 		"origins-plus-plus:shifter/shulk/size" = true
 
 	[origins."origins-plus-plus:malfunction"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:malfunction/callback_pursuit" = true
 		"origins-plus-plus:malfunction/float" = true
 		"origins-plus-plus:malfunction/particles" = true
@@ -1066,7 +1066,7 @@
 		"origins-plus-plus:malfunction/random_teleport" = true
 
 	[origins."origins-plus-plus:wandering_spirit"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:wandering-spirit/damage_glitch" = true
 		"origins-plus-plus:wandering-spirit/fire" = true
 		"origins-plus-plus:wandering-spirit/glasses" = true
@@ -1082,7 +1082,7 @@
 		"origins-plus-plus:wandering-spirit/the_darkness" = true
 
 	[origins."origins-plus-plus:mountain_goat"]
-		enabled = true
+		enabled = false
 		"origins:fresh_air" = true
 		"origins:fall_immunity" = true
 		"origins:vegetarian" = true
@@ -1095,7 +1095,7 @@
 		"origins-plus-plus:mountain-goat/tough" = true
 
 	[origins."origins-plus-plus:calamitous_rogue"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:calamitous-rogue/assassin" = true
 		"origins-plus-plus:calamitous-rogue/bad_trade" = true
 		"origins-plus-plus:calamitous-rogue/dps" = true
@@ -1108,7 +1108,7 @@
 		"origins-plus-plus:calamitous-rogue/traceless" = true
 
 	[origins."origins-plus-plus:zero_aizawa"]
-		enabled = true
+		enabled = false
 		"origins:throw_ender_pearl" = true
 		"origins-plus-plus:zero-aizawa/acrobatics" = true
 		"origins-plus-plus:zero-aizawa/heliophobia" = true
@@ -1120,7 +1120,7 @@
 		"origins-plus-plus:zero-aizawa/weak_stature" = true
 
 	[origins."origins-plus-plus:iceling"]
-		enabled = true
+		enabled = false
 		"origins:climbing" = true
 		"origins:fragile" = true
 		"origins:more_kinetic_damage" = true
@@ -1162,7 +1162,7 @@
 		"origins-plus-plus:part-robot/water_breather" = true
 
 	[origins."origins-plus-plus:enigma"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:enigma/clone" = true
 		"origins-plus-plus:enigma/behind_you" = true
 		"origins-plus-plus:enigma/hated" = true
@@ -1172,7 +1172,7 @@
 		"origins-plus-plus:enigma/staring" = true
 
 	[origins."origins-plus-plus:illusioner/illusioner_novice"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins-plus-plus:illusioner/arrow" = true
 		"origins-plus-plus:illusioner/friendly_pillagers" = true
@@ -1195,7 +1195,7 @@
 		"origins-plus-plus:sprinter/skinny" = true
 
 	[origins."origins-plus-plus:giant"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:giant/armor" = true
 		"origins-plus-plus:giant/big" = true
 		"origins-plus-plus:giant/bow" = true
@@ -1218,7 +1218,7 @@
 		"origins-plus-plus:giant/unwieldy" = true
 
 	[origins."origins-plus-plus:deathsworn"]
-		enabled = true
+		enabled = false
 		"origins:burn_in_daylight" = true
 		"origins-plus-plus:deathsworn/appraisal" = true
 		"origins-plus-plus:deathsworn/carry" = true
@@ -1239,7 +1239,7 @@
 		"origins-plus-plus:deathsworn/take_soul" = true
 
 	[origins."origins-plus-plus:jellyfish"]
-		enabled = true
+		enabled = false
 		"origins:aqua_affinity" = true
 		"origins:aquatic" = true
 		"origins:conduit_power_on_land" = true
@@ -1263,7 +1263,7 @@
 		"origins-plus-plus:wanderer/trade" = true
 
 	[origins."origins-plus-plus:fallen_angel"]
-		enabled = true
+		enabled = false
 		"origins:water_vulnerability" = true
 		"origins:natural_armor" = true
 		"origins:no_shield" = true
@@ -1283,7 +1283,7 @@
 		"origins-plus-plus:fallen-angel/velocity" = true
 
 	[origins."origins-plus-plus:flea"]
-		enabled = true
+		enabled = false
 		"origins:climbing" = true
 		"origins:arthropod" = true
 		"origins-plus-plus:flea/antivore" = true
@@ -1299,7 +1299,7 @@
 		"origins-plus-plus:flea/small_stomach" = true
 
 	[origins."origins-plus-plus:felvaxian"]
-		enabled = true
+		enabled = false
 		"origins:carnivore" = true
 		"origins:cat_vision" = true
 		"origins:elytra" = true
@@ -1330,7 +1330,7 @@
 		"origins-plus-plus:voidling/winged_limits" = true
 
 	[origins."origins-plus-plus:soul_seer"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:soul-seer/antivore" = true
 		"origins-plus-plus:soul-seer/empty_well" = true
 		"origins-plus-plus:soul-seer/energized_vigor" = true
@@ -1346,7 +1346,7 @@
 		"origins-plus-plus:soul-seer/transparent" = true
 
 	[origins."origins-plus-plus:mothling"]
-		enabled = true
+		enabled = false
 		"origins:fragile" = true
 		"origins:elytra" = true
 		"origins-plus-plus:mothling/boost" = true
@@ -1379,7 +1379,7 @@
 		"origins-plus-plus:hero-of-the-wild/sword" = true
 
 	[origins."origins-plus-plus:lost_draconian"]
-		enabled = true
+		enabled = false
 		"origins:water_vulnerability" = true
 		"origins:elytra" = true
 		"origins-plus-plus:lost-draconian/launch_into_air" = true
@@ -1395,7 +1395,7 @@
 		"origins-plus-plus:lost-draconian/weapons" = true
 
 	[origins."origins-plus-plus:kelperet"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins:water_breathing" = true
 		"origins:fragile" = true
@@ -1429,7 +1429,7 @@
 		"origins-plus-plus:kirin/unrivaled_speed" = true
 
 	[origins."origins-plus-plus:lunar_path"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:lunar-path/chains_of_death" = true
 		"origins-plus-plus:lunar-path/cursed_being" = true
 		"origins-plus-plus:lunar-path/exiled" = true
@@ -1458,7 +1458,7 @@
 		"origins-plus-plus:artificial-construct/storage" = true
 
 	[origins."origins-plus-plus:stargazer"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:stargazer/equinox" = true
 		"origins-plus-plus:stargazer/fragile_flame" = true
 		"origins-plus-plus:stargazer/hellish_will" = true
@@ -1487,7 +1487,7 @@
 		"origins-plus-plus:void-samurai/unwieldy" = true
 
 	[origins."origins-plus-plus:illusioner/illusioner_apprentice"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins-plus-plus:illusioner/better_arrow" = true
 		"origins-plus-plus:illusioner/bow_apprentice" = true
@@ -1501,7 +1501,7 @@
 		"origins-plus-plus:illusioner/villager_hate" = true
 
 	[origins."origins-plus-plus:marshmallow"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:marshmallow/change_resource" = true
 		"origins-plus-plus:marshmallow/melt_in_water" = true
 		"origins-plus-plus:marshmallow/pyrophobia" = true
@@ -1511,7 +1511,7 @@
 		"origins-plus-plus:marshmallow/sugar_level_3" = true
 
 	[origins."origins-plus-plus:warper"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:warper/ender_chest" = true
 		"origins-plus-plus:warper/fall_break" = true
 		"origins-plus-plus:warper/food" = true
@@ -1523,7 +1523,7 @@
 		"origins-plus-plus:warper/weak" = true
 
 	[origins."origins-plus-plus:wyverian"]
-		enabled = true
+		enabled = false
 		"origins:carnivore" = true
 		"origins:elytra" = true
 		"origins-plus-plus:wyverian/claws" = true
@@ -1536,7 +1536,7 @@
 		"origins-plus-plus:wyverian/wind" = true
 
 	[origins."origins-plus-plus:withered_fox"]
-		enabled = true
+		enabled = false
 		"origins:slow_falling" = true
 		"origins:fire_immunity" = true
 		"origins-plus-plus:withered-fox/berry_sat" = true
@@ -1559,7 +1559,7 @@
 		"origins-plus-plus:withered-fox/withered_hands" = true
 
 	[origins."origins-plus-plus:ice_king"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:ice-king/blue_transparent_ski" = true
 		"origins-plus-plus:ice-king/cold_power" = true
 		"origins-plus-plus:ice-king/combo_attack" = true
@@ -1573,7 +1573,7 @@
 		"origins-plus-plus:ice-king/warp" = true
 
 	[origins."origins-plus-plus:ghast"]
-		enabled = true
+		enabled = false
 		"origins:fire_immunity" = true
 		"origins:fragile" = true
 		"origins:nether_spawn" = true
@@ -1590,7 +1590,7 @@
 		"origins-plus-plus:ghast/tall" = true
 
 	[origins."origins-plus-plus:reign_farmer"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins:vegetarian" = true
 		"origins-plus-plus:reign-farmer/lightly_armored" = true
@@ -1602,7 +1602,7 @@
 		"origins-plus-plus:reign-farmer/the_gift_of_life" = true
 
 	[origins."origins-plus-plus:hellforged"]
-		enabled = true
+		enabled = false
 		"origins:nether_spawn" = true
 		"origins:fire_immunity" = true
 		"origins-plus-plus:hellforged/heat_powered" = true
@@ -1613,7 +1613,7 @@
 		"origins-plus-plus:hellforged/water_vulnerability" = true
 
 	[origins."origins-plus-plus:birb"]
-		enabled = true
+		enabled = false
 		"origins:elytra" = true
 		"origins:more_kinetic_damage" = true
 		"origins:no_shield" = true
@@ -1645,7 +1645,7 @@
 		"origins-plus-plus:war-god/warrior" = true
 
 	[origins."origins-plus-plus:child_of_cthulhu"]
-		enabled = true
+		enabled = false
 		"origins:elytra" = true
 		"origins-plus-plus:child-of-cthulhu/camouflage" = true
 		"origins-plus-plus:child-of-cthulhu/exhaust" = true
@@ -1659,7 +1659,7 @@
 		"origins-plus-plus:child-of-cthulhu/water_vision" = true
 
 	[origins."origins-plus-plus:mouse"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:mouse/a_mouses_lifespan" = true
 		"origins-plus-plus:mouse/mischievous" = true
 		"origins-plus-plus:mouse/mob_ally" = true
@@ -1668,7 +1668,7 @@
 		"origins-plus-plus:mouse/yoink" = true
 
 	[origins."origins-plus-plus:blob"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins-plus-plus:blob/amethyst_eater" = true
 		"origins-plus-plus:blob/blob_creature" = true
@@ -1691,7 +1691,7 @@
 		"origins-plus-plus:blob/wisdom" = true
 
 	[origins."origins-plus-plus:frog"]
-		enabled = true
+		enabled = false
 		"origins:aqua_affinity" = true
 		"origins:fall_immunity" = true
 		"origins:fragile" = true
@@ -1704,7 +1704,7 @@
 		"origins-plus-plus:frog/water_breathing" = true
 
 	[origins."origins-plus-plus:automaton"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:automaton/aging" = true
 		"origins-plus-plus:automaton/attack" = true
 		"origins-plus-plus:automaton/cold_biome" = true
@@ -1735,7 +1735,7 @@
 		"origins-plus-plus:automaton/waterbar_increase" = true
 
 	[origins."origins-plus-plus:illusioner/illusioner_master"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins-plus-plus:illusioner/better_arrow" = true
 		"origins-plus-plus:illusioner/better_illusion" = true
@@ -1749,7 +1749,7 @@
 		"origins-plus-plus:illusioner/villager_hate" = true
 
 	[origins."origins-plus-plus:ice_porcupine"]
-		enabled = true
+		enabled = false
 		"origins:water_vulnerability" = true
 		"origins:carnivore" = true
 		"origins:fragile" = true
@@ -1767,7 +1767,7 @@
 		"origins-plus-plus:ice-porcupine/vanish" = true
 
 	[origins."origins-plus-plus:bedrockean"]
-		enabled = true
+		enabled = false
 		"origins:fall_immunity" = true
 		"origins:fire_immunity" = true
 		"origins:natural_armor" = true
@@ -1810,7 +1810,7 @@
 		"origins-plus-plus:bedrockean/weakness" = true
 
 	[origins."origins-plus-plus:cobra"]
-		enabled = true
+		enabled = false
 		"origins:carnivore" = true
 		"origins:nine_lives" = true
 		"origins:no_shield" = true
@@ -1826,7 +1826,7 @@
 		"origins-plus-plus:cobra/strength_in_nether" = true
 
 	[origins."origins-plus-plus:emblazing_warrior"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:emblazing-warrior/blind" = true
 		"origins-plus-plus:emblazing-warrior/burning_will" = true
 		"origins-plus-plus:emblazing-warrior/cross" = true
@@ -1839,14 +1839,14 @@
 		"origins-plus-plus:emblazing-warrior/world_diff" = true
 
 	[origins."origins-plus-plus:warforged"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:warforged/robotic_body" = true
 		"origins-plus-plus:warforged/rust" = true
 		"origins-plus-plus:warforged/scotopic_vision" = true
 		"origins-plus-plus:warforged/weaponized_body" = true
 
 	[origins."origins-plus-plus:copper_golem"]
-		enabled = true
+		enabled = false
 		"origins:fall_immunity" = true
 		"origins-plus-plus:copper-golem/copper_colour" = true
 		"origins-plus-plus:copper-golem/defense" = true
@@ -1871,7 +1871,7 @@
 		"origins-plus-plus:shadow-crawler/shadowy_form" = true
 
 	[origins."origins-plus-plus:gnoll"]
-		enabled = true
+		enabled = false
 		"origins:carnivore" = true
 		"origins-plus-plus:gnoll/carrion_eater" = true
 		"origins-plus-plus:gnoll/carrion_saturation" = true
@@ -1881,7 +1881,7 @@
 		"origins-plus-plus:gnoll/rage" = true
 
 	[origins."origins-plus-plus:warden"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins-plus-plus:warden/blind" = true
 		"origins-plus-plus:warden/echolocation" = true
@@ -1927,7 +1927,7 @@
 		"origins-plus-plus:moth/soul_torch_affinity" = true
 
 	[origins."origins-plus-plus:broodmother"]
-		enabled = true
+		enabled = false
 		"origins:no_shield" = true
 		"origins:master_of_webs" = true
 		"origins:no_cobweb_slowdown" = true
@@ -1950,7 +1950,7 @@
 		"origins-plus-plus:broodmother/web_shot" = true
 
 	[origins."origins-plus-plus:snake"]
-		enabled = true
+		enabled = false
 		"origins-plus-plus:snake/bite" = true
 		"origins-plus-plus:snake/health" = true
 		"origins-plus-plus:snake/intimidate" = true
