@@ -1,0 +1,46 @@
+[
+    {
+        "mob": "alexsmobs:mimic_octopus",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:cachalot_whale",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:frilled_shark",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:blobfish",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:giant_squid",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:catfish",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:mantis_shrimp",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:seal",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:hammerhead_shark",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:orca",
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:lobster",
+        "result": "deny"
+    }
+]

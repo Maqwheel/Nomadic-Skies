@@ -43,8 +43,6 @@ ServerEvents.tags('item', event => {
         "alexsdelight:bison_patty",
         "alexsdelight:raw_bunfungus_drumstick",
         "alexsdelight:cooked_bunfungus_drumstick",
-        "alexsdelight:cooked_catfish_slice",
-        "alexsdelight:raw_catfish_slice",
         "alexsdelight:raw_bison",
         "alexsdelight:cooked_bison",
         "alexsdelight:raw_bunfungus",
@@ -53,7 +51,6 @@ ServerEvents.tags('item', event => {
         "alexsdelight:gongylidia_brushcetta",
         "alexsdelight:maggot_salad",
         "alexsdelight:kangaroo_stew",
-        "alexsdelight:lobster_pasta",
         "alexsdelight:bison_burger",
         "alexsdelight:bunfunugs_sandwich",
         "alexsdelight:kangaroo_pasta",
@@ -100,16 +97,12 @@ ServerEvents.tags('item', event => {
         "farmersdelight:shepherds_pie",
         "farmersdelight:dog_food",
         "alexsmobs:mosquito_repellent_stew",
-        "alexsmobs:raw_catfish",
-        "alexsmobs:cooked_catfish",
         "alexsmobs:kangaroo_burger",
         "alexsmobs:kangaroo_meat",
         "alexsmobs:cooked_kangaroo_meat",
         "alexsmobs:boiled_emu_egg",
         "alexsmobs:moose_ribs",
-        "alexsmobs:cooked_moose_ribs",
-        "alexsmobs:lobster_tail",
-        "alexsmobs:cooked_lobster_tail"
+        "alexsmobs:cooked_moose_ribs"
     ];
 
     meats.forEach(
