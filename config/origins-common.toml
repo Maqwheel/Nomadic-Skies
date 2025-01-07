@@ -1157,9 +1157,9 @@
 		"origins-plus-plus:part-robot/rapid_laser" = true
 		"origins-plus-plus:part-robot/regenerate" = true
 		"origins-plus-plus:part-robot/steel_skin" = false
-		"origins-plus-plus:part-robot/tank_skin" = true
+		"origins-plus-plus:part-robot/tank_skin" = false
 		"origins-plus-plus:part-robot/unexhausted" = true
-		"origins-plus-plus:part-robot/water_breather" = false
+		"origins-plus-plus:part-robot/water_breather" = true
 
 	[origins."origins-plus-plus:enigma"]
 		enabled = false
