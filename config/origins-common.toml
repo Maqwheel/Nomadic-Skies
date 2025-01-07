@@ -200,10 +200,10 @@
 		"origins-plus-plus:gaia/floral_teaming_strength" = true
 		"origins-plus-plus:gaia/floral_teaming_village" = true
 		"origins-plus-plus:gaia/floral_teaming_wither_rose" = true
-		"origins-plus-plus:gaia/fungal_enemy" = true
-		"origins-plus-plus:gaia/fungal_enemy_crimson" = true
-		"origins-plus-plus:gaia/fungal_enemy_red" = true
-		"origins-plus-plus:gaia/fungal_enemy_warped" = true
+		"origins-plus-plus:gaia/fungal_enemy" = false
+		"origins-plus-plus:gaia/fungal_enemy_crimson" = false
+		"origins-plus-plus:gaia/fungal_enemy_red" = false
+		"origins-plus-plus:gaia/fungal_enemy_warped" = false
 		"origins-plus-plus:gaia/natures_danger" = true
 		"origins-plus-plus:gaia/photosynthesis" = true
 		"origins-plus-plus:gaia/plant_based" = true
@@ -629,7 +629,7 @@
 		"origins-plus-plus:ryu/better_odds" = false
 		"origins-plus-plus:ryu/big_body" = false
 		"origins-plus-plus:ryu/dark_color" = false
-		"origins-plus-plus:ryu/friendly_eyes" = true
+		"origins-plus-plus:ryu/friendly_eyes" = false
 		"origins-plus-plus:ryu/healing_potions" = true
 		"origins-plus-plus:ryu/heavy_scales" = true
 		"origins-plus-plus:ryu/lift_off" = true
@@ -698,19 +698,19 @@
 		enabled = true
 		"origins:pumpkin_hate" = true
 		"origins:water_vulnerability" = false
-		"origins-plus-plus:end-mage/end_rage" = true
+		"origins-plus-plus:end-mage/end_rage" = false
 		"origins-plus-plus:end-mage/health" = true
-		"origins-plus-plus:end-mage/mage_book" = true
-		"origins-plus-plus:end-mage/mana_potion" = true
-		"origins-plus-plus:end-mage/reach" = true
-		"origins-plus-plus:end-mage/recipes" = true
-		"origins-plus-plus:end-mage/resource" = true
-		"origins-plus-plus:end-mage/resource_change" = true
-		"origins-plus-plus:end-mage/super_mana_potion" = true
+		"origins-plus-plus:end-mage/mage_book" = false
+		"origins-plus-plus:end-mage/mana_potion" = false
+		"origins-plus-plus:end-mage/reach" = false
+		"origins-plus-plus:end-mage/recipes" = false
+		"origins-plus-plus:end-mage/resource" = false
+		"origins-plus-plus:end-mage/resource_change" = false
+		"origins-plus-plus:end-mage/super_mana_potion" = false
 		"origins-plus-plus:end-mage/telekinesis" = true
 		"origins-plus-plus:end-mage/teleport" = true
 		"origins-plus-plus:end-mage/tp_to_you" = true
-		"origins-plus-plus:end-mage/waypoint" = true
+		"origins-plus-plus:end-mage/waypoint" = false
 
 	[origins."origins-plus-plus:ebon_wing"]
 		enabled = false
