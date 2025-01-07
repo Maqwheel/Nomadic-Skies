@@ -2197,7 +2197,7 @@
 		"medievalorigins:moon_elf/elegant" = true
 		"medievalorigins:moon_elf/nimble" = true
 		"medievalorigins:moon_elf/fragile" = true
-		"medievalorigins:moon_elf/towering" = true
+		"medievalorigins:moon_elf/towering" = false
 		"origins_survive:sleepless" = true
 
 	[origins."medievalorigins:yeti"]
