@@ -2193,10 +2193,10 @@
 		"medievalorigins:moon_elf/moonlight_rogue" = true
 		"medievalorigins:moon_elf/stealth" = true
 		"medievalorigins:moon_elf/ethereal" = true
-		"medievalorigins:moon_elf/crazed" = true
-		"medievalorigins:moon_elf/elegant" = true
+		"medievalorigins:moon_elf/crazed" = false
+		"medievalorigins:moon_elf/elegant" = false
 		"medievalorigins:moon_elf/nimble" = true
-		"medievalorigins:moon_elf/fragile" = true
+		"medievalorigins:moon_elf/fragile" = false
 		"medievalorigins:moon_elf/towering" = false
 		"origins_survive:sleepless" = true
 
