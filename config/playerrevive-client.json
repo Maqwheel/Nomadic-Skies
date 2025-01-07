@@ -3,6 +3,6 @@
   "bleedingMusicVolume": 1.0,
   "countdownMusicVolume": 1.0,
   "bleeding": {
-    "giveUpSeconds": 2
+    "giveUpSeconds": 0
   }
 }
