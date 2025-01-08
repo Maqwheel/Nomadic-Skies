@@ -6,7 +6,7 @@
 	displayCoordinates = true
 	#The maximum radius that will be searched for a structure. Raising this value will increase search accuracy but will potentially make the process more resource intensive.
 	#Range: 0 ~ 1000000
-	maxRadius = 10000
+	maxRadius = 30000
 	#A list of structures that the compass will not display in the GUI and will not be able to search for. Wildcard character * can be used to match any number of characters, and ? can be used to match one character. Ex: ["minecraft:stronghold", "minecraft:endcity", "minecraft:*village*"]
 	structureBlacklist = ["additionalstructures:acacia_log", "additionalstructures:big_jungle_log", "additionalstructures:birch_log", "additionalstructures:bone_1", "additionalstructures:bone_2", "additionalstructures:bush_1", "additionalstructures:bush_2", "additionalstructures:bush_3", "additionalstructures:bush_4", "additionalstructures:cactus_1", "additionalstructures:cactus_2", "additionalstructures:cobblestone_rock_1", "additionalstructures:cobblestone_rock_2", "additionalstructures:cobblestone_rock_3", "additionalstructures:damaged_mushroom_1", "additionalstructures:damaged_mushroom_2", "additionalstructures:dead_tree_1", "additionalstructures:dead_tree_2", "additionalstructures:dragon_fossil_1", "additionalstructures:dragon_fossil_2", "betterstrongholds:stronghold", "castle_in_the_sky:castle_in_the_sky", "repurposed_structures:stronghold_end", "repurposed_structures:stronghold_nether", "minecraft:stronghold"]
 	#The maximum number of samples to be taken when searching for a structure.
