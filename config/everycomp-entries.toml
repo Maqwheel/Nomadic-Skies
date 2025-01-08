@@ -2,14 +2,6 @@
 #Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 [types]
 
-	[types.cake]
-
-		[types.cake.ironsspellsdelight]
-			blood_vial_cake = true
-
-		[types.cake.mowziesdelight]
-			suns_cake = true
-
 	[types.leaves_type]
 
 		[types.leaves_type.biomesoplenty]
@@ -52,19 +44,27 @@
 			maple = true
 			empyreal = true
 
+	[types.cake]
+
+		[types.cake.ironsspellsdelight]
+			blood_vial_cake = true
+
+		[types.cake.mowziesdelight]
+			suns_cake = true
+
 #Disables specific entries
 [entries]
 
 	[entries.wood_type]
 
-		[entries.wood_type.mcwbridges]
-			bridge_pier = true
-			rope_bridge = true
-			log_bridge_middle = true
-			rope_bridge_stair = true
-			log_bridge_stair = true
-			rail_bridge = true
-
 		[entries.wood_type.farmersdelight]
 			cabinet = true
+
+		[entries.wood_type.mcwbridges]
+			rope_bridge = true
+			bridge_pier = true
+			rope_bridge_stair = true
+			log_bridge_stair = true
+			log_bridge_middle = true
+			rail_bridge = true
 

@@ -55,8 +55,6 @@
 		fire_damage = true
 		#Whether the player should take damage when inside powder snow.
 		freeze_damage = true
-		#Non Vanilla gamerule: 'grindstoneRepairTools'
-		grindstone_repair_tools = false
 		#Whether the player should keep items and experience in their inventory after death .
 		keep_inventory = true
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
@@ -69,6 +67,8 @@
 		spawn_radius = 10
 		#Whether players in spectator mode can generate chunks
 		spectators_generate_chunks = true
+		#Non Vanilla gamerule: 'grindstoneRepairTools'
+		grindstone_repair_tools = false
 
 	[gamerules.mobs]
 		#Whether raids are disabled.
@@ -88,8 +88,6 @@
 		do_daylight_cycle = true
 		#Whether fire should spread and naturally extinguish
 		do_fire_tick = true
-		#Non Vanilla gamerule: 'doSeasonCycle'
-		do_season_cycle = true
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.
 		do_vines_spread = true
 		#Whether the weather can change naturally. The /weather command can still change weather.
@@ -104,6 +102,8 @@
 		snow_accumulation_height = 0
 		#Whether new sources of water are allowed to form.
 		water_source_conversion = true
+		#Non Vanilla gamerule: 'doSeasonCycle'
+		do_season_cycle = true
 
 	[gamerules.spawning]
 		#Whether phantoms can spawn in the nighttime.
