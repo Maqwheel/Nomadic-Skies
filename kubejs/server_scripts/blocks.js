@@ -1,6 +1,21 @@
-// Updates ship helm recipe to use an emerald instead of a diamond
 ServerEvents.recipes(
     event => {
+        // Remove gravel duplication glitch
+        event.remove({output: 'minecraft:gravel'});
+
+        event.recipes.farmersdelight.cutting(
+            'minecraft:gravel',
+            '#forge:tools/shovels',
+            [
+                Item.of('minecraft:flint').withChance(0.5),
+                Item.of('minecraft:gravel').withChance(0.1)
+            ]
+        );
+
+        // Be able to obtain sand easily
+        event.smelting('minecraft:sand', 'minecraft:gravel');
+
+        // Updates ship helm recipe to use an emerald instead of a diamond
         const woodTypes = [
             'acacia',
             'birch',
