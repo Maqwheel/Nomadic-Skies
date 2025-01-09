@@ -1,7 +1,7 @@
 
 [Mobs]
 	#Example: ["minecraft:zombie", "minecraft:skeleton"]
-	"List of mobs that shouldn't be able to level up" = ["minecraft:armor_stand"]
+	"List of mobs that shouldn't be able to level up" = ["minecraft:armor_stand", "minecraft:warden", "minecraft:vex", "minecraft:ender_dragon", "minecraft:shulker", "minecraft:endermite", "minecraft:wither", "irons_spellbooks:dead_king", "minecraft:iron_golem", "minecraft:snow_golem", "minecraft:allay", "minecraft:axolotl", "minecraft:bat", "minecraft:cat", "minecraft:chicken", "alexsmobs:raccoon", "minecraft:cow", "minecraft:frog", "minecraft:horse", "minecraft:mooshroom", "minecraft:parrot", "minecraft:pig", "minecraft:rabbit", "minecraft:sheep", "minecraft:sniffer", "minecraft:villager", "alexsmobs:hummingbird", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "alexsmobs:fly", "alexsmobs:roadrunner"]
 	#If this list is not empty only these mobs will be able to level up
 	#Example: ["minecraft:zombie", "minecraft:skeleton"]
 	"List of mobs that should be able to level up" = []
