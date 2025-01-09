@@ -1,0 +1,22 @@
+{
+  "conversationID": "questapi.opening_dialog",
+  "dialog": [
+    {
+      "id": 0,
+      "dialogText": "Quest 1: Craft a helm.",
+      "requirements": {
+        "type": "QUEST",
+        "quest_id": "nomadic_skies.helm_quest",
+        "requirement_status": "NOT_OBTAINED"
+      },
+      "options": [
+        {
+          "text": "Let's Do It!",
+          "type": "ADD_QUEST",
+          "quest_id":"nomadic_skies.helm_quest"
+        }
+      ]
+    }
+  ],
+  "identifier": "questapi"
+}
