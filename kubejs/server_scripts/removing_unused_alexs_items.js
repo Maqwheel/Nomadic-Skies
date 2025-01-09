@@ -9,6 +9,8 @@ ServerEvents.recipes(
         event.remove({output: 'alexsmobs:endolocator'});
         event.remove({output: 'alexsmobs:fish_oil'});
         event.remove({output: 'alexsmobs:pupfish_locator'});
+        event.remove({output: 'alexsmobs:shark_tooth_arrow'});
+        event.remove({output: 'alexsmobs:shield_of_the_deep'});
 
         event.recipes.farmersdelight.cooking(
             [
