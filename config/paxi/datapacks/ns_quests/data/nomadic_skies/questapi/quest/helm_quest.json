@@ -1,0 +1,21 @@
+{
+    "id": "helm_quest",
+    "title": "Getting Started",
+    "hasTimeLimit": false,
+    "timeLimitInSeconds": 0,
+    "goals": [
+      {
+        "type": "COLLECT",
+        "target": "vs_eureka:oak_ship_helm",
+        "amount": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "ITEM",
+        "tag": "vs_eureka:oak_ship_helm",
+        "amount": 1
+      }
+    ],
+    "description": "The first piece of your airship."
+  }
