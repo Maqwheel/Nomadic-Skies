@@ -1,3 +1,4 @@
+// Lists for items
 const sandpaperTypes = [
     "arid",
     "blue",
@@ -15,6 +16,30 @@ const sandpaperTypes = [
     "venus",
     "violet",
     "windswept"
+];
+
+const recyclables = [
+    "irons_spellbooks:affinity_ring",
+    "irons_spellbooks:cast_time_ring",
+    "irons_spellbooks:concentration_amulet",
+    "irons_spellbooks:conjurers_talisman",
+    "irons_spellbooks:cooldown_ring",
+    "irons_spellbooks:emerald_stoneplate_ring",
+    "irons_spellbooks:fireward_ring",
+    "irons_spellbooks:frostward_ring",
+    "irons_spellbooks:heavy_chain_necklace",
+    "irons_spellbooks:poisonward_ring"
+];
+
+const pasteTypes = [
+    'blaze_powder',
+    'redstone',
+    'sugar'
+];
+
+const removedArrows = [
+    "blaze",
+    "frost"
 ];
 
 ServerEvents.recipes(
@@ -37,19 +62,6 @@ ServerEvents.recipes(
         )
 
         // Recycling Iron's Spellbooks items
-        const recyclables = [
-            "irons_spellbooks:affinity_ring",
-            "irons_spellbooks:cast_time_ring",
-            "irons_spellbooks:concentration_amulet",
-            "irons_spellbooks:conjurers_talisman",
-            "irons_spellbooks:cooldown_ring",
-            "irons_spellbooks:emerald_stoneplate_ring",
-            "irons_spellbooks:fireward_ring",
-            "irons_spellbooks:frostward_ring",
-            "irons_spellbooks:heavy_chain_necklace",
-            "irons_spellbooks:poisonward_ring"
-        ]
-
         recyclables.forEach(
             recyclable => {
                 event.recipes.farmersdelight.cooking(
@@ -198,12 +210,6 @@ ServerEvents.recipes(
         event.remove({output: 'alexsmobs:shield_of_the_deep'});
 
         // Updating Tool Upgrades' paste recipe
-        const pasteTypes = [
-            'blaze_powder',
-            'redstone',
-            'sugar'
-        ];
-
         pasteTypes.forEach(
             pasteType => {
                 event.remove({output: `toolupgrades:paste_${pasteType}`});
@@ -376,18 +382,13 @@ MoreJSEvents.villagerTrades(
         );
 
         // Removing duplicate arrows
-        const arrows = [
-            "blaze",
-            "frost"
-        ];
-
         event.removeModdedTrades(
             'minecraft:fletcher',
             3
         );
 
-        arrows.forEach(
-            arrow => {
+        removedArrows.forEach(
+            removedArrow => {
                 event.addTrade(
                     'minecraft:fletcher',
                     3,
@@ -395,7 +396,7 @@ MoreJSEvents.villagerTrades(
                         Item.of('minecraft:emerald', 3),
                         Item.of('minecraft:arrow', 4)
                     ],
-                    `archers_paradox:${arrow}_arrow`
+                    `archers_paradox:${removedArrow}_arrow`
                 );
             }
         )
