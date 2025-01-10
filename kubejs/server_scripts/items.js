@@ -37,10 +37,123 @@ const pasteTypes = [
     'sugar'
 ];
 
-const removedArrows = [
+const keptAPArrows = [
     "blaze",
     "frost"
 ];
+
+const removedAPArrows = [
+    "challenge",
+    "diamond",
+    "prismarine",
+    "quartz",
+    "slime",
+    "training"
+];
+
+const removedMBAAArrows = [
+    "bamboo",
+    "blaze_rod",
+    "cactus",
+    "coal",
+    "dragon_breath",
+    "dripstone",
+    "copper",
+    "echo",
+    "egg",
+    "ender_pearl",
+    "fire_charge",
+    "flint_and_steel",
+    "glow_ink_sac",
+    "gold",
+    "ice",
+    "ink_sac",
+    "iron",
+    "ladder",
+    "lapis",
+    "lightning_rod",
+    "nether_quartz",
+    "nether_star",
+    "paper",
+    "redstone",
+    "shear",
+    "shulker_shell",
+    "smoking",
+    "snowball",
+    "tnt",
+    "water_bottle"
+]
+
+const arrowFixes = [
+    [
+        "archers_paradox:explosive",
+        "minecraft:tnt"
+    ],
+    [
+        "archers_paradox:ender",
+        "minecraft:ender_pearl"
+    ],
+    [
+        "archers_paradox:phantasmal",
+        "minecraft:sculk"
+    ],
+    [
+        "archers_paradox:shulker",
+        "minecraft:compass"
+    ],
+    [
+        "archers_paradox:blaze",
+        "minecraft:fire_charge"
+    ],
+    [
+        "archers_paradox:frost",
+        "minecraft:packed_ice"
+    ],
+    [
+        "archers_paradox:lightning",
+        "minecraft:lightning_rod"
+    ],
+    [
+        "archers_paradox:verdant",
+        "minecraft:bone_meal"
+    ],
+    [
+        "archers_paradox:spore",
+        "#forge:mushrooms"
+    ],
+    [
+        "more_bows_and_arrows:amethyst",
+        "minecraft:amethyst_shard"
+    ],
+    [
+        "more_bows_and_arrows:bone",
+        "minecraft:bone"
+    ],
+    [
+        "more_bows_and_arrows:diamond",
+        "minecraft:diamond"
+    ],
+    [
+        "more_bows_and_arrows:emerald",
+        "minecraft:emerald"
+    ],
+    [
+        "more_bows_and_arrows:firework",
+        "minecraft:firework_rocket"
+    ],
+    [
+        "more_bows_and_arrows:netherite",
+        "minecraft:netherite_ingot"
+    ],
+    [
+        "more_bows_and_arrows:obsidian",
+        "minecraft:obsidian"
+    ],
+    [
+        "more_bows_and_arrows:slimeball",
+        "minecraft:slime_ball"
+    ]
+]
 
 ServerEvents.recipes(
     event => {
@@ -183,9 +296,17 @@ ServerEvents.recipes(
         );
 
         // Removing duplicate arrows
-        event.remove({output: 'archers_paradox:diamond_arrow'});
-        event.remove({output: 'archers_paradox:lightning_arrow'});
-        event.remove({output: 'more_bows_and_arrows:tnt_arrow'});
+        removedAPArrows.forEach(
+            arrow => {
+                event.remove({output: `archers_paradox:${arrow}_arrow`});
+            }
+        )
+
+        removedMBAAArrows.forEach(
+            arrow => {
+                event.remove({output: `more_bows_and_arrows:${arrow}_arrow`});
+            }
+        )
 
         // Added a recipe for the ruined book
         event.shaped(
@@ -345,6 +466,40 @@ ServerEvents.recipes(
                 Item.of('minecraft:feather', 2)
             ]
         );
+
+        // Update new arrow recipes
+        arrowFixes.forEach(
+            ([arrow, keyItem]) => {
+                event.remove({output: `${arrow}_arrow`});
+
+                event.shaped(
+                    Item.of(`${arrow}_arrow`, 8),
+                    [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                    ],
+                    {
+                        A: 'minecraft:arrow',
+                        B: keyItem
+                    }
+                );
+            }
+        )
+
+        event.remove({output: 'more_bows_and_arrows:flint_arrow'});
+
+        event.shaped(
+            Item.of('more_bows_and_arrows:flint_arrow', 4),
+            [
+                ' A ',
+                ' A ',
+                ' A '
+            ],
+            {
+                A: 'minecraft:flint'
+            }
+        );
     }
 )
 
@@ -384,11 +539,23 @@ MoreJSEvents.villagerTrades(
         // Removing duplicate arrows
         event.removeModdedTrades(
             'minecraft:fletcher',
+            1
+        );
+        event.removeModdedTrades(
+            'minecraft:fletcher',
+            2
+        );
+        event.removeModdedTrades(
+            'minecraft:fletcher',
             3
         );
+        event.removeModdedTrades(
+            'minecraft:fletcher',
+            4
+        );
 
-        removedArrows.forEach(
-            removedArrow => {
+        keptAPArrows.forEach(
+            arrow => {
                 event.addTrade(
                     'minecraft:fletcher',
                     3,
@@ -396,7 +563,7 @@ MoreJSEvents.villagerTrades(
                         Item.of('minecraft:emerald', 3),
                         Item.of('minecraft:arrow', 4)
                     ],
-                    `archers_paradox:${removedArrow}_arrow`
+                    `archers_paradox:${arrow}_arrow`
                 );
             }
         )
