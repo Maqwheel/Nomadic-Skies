@@ -27,9 +27,10 @@ usercache.json
 usernamecache.json
 
 # Config files that update every time game is launched and we do not edit
-config/defaultworldtype/world-presets.txt
 config/forgeendertech/
 config/jei/world/
+config/defaultworldtype/world-presets.txt
+config/fabric/indigo-renderer.properties
 config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 config/betterfpsdist.json
