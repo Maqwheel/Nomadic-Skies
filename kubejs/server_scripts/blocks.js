@@ -47,5 +47,21 @@ ServerEvents.recipes(
                 );
             }
         )
+
+        // Painted Acacia Cabinet recipe fixing
+        event.remove({output: 'mowziesdelight:painted_acacia_cabinet'});
+
+        event.shaped(
+            'mowziesdelight:painted_acacia_cabinet',
+            [
+                'AAA',
+                'B B',
+                'AAA'
+            ],
+            {
+                A: 'mowziesmobs:painted_acacia_slab',
+                B: 'minecraft:acacia_trapdoor'
+            }
+        );
     }
 )
