@@ -1,3 +1,63 @@
 {
-  "schema_version": "2"
+  "schema_version": "2",
+  "pack_overrides": {
+    "file/Glowing Modded Ores V4.zip": {
+      "force_compatible": true,
+      "required": true
+    },
+    "file/NoIronSpellbook.zip": {
+      "hidden": true
+    },
+    "file/Nomadic Skies GUI.zip": {
+      "required": true
+    },
+    "file/Quark Programmer Art.zip": {
+      "force_compatible": true
+    },
+    "file/Renewed Plaques 1.20.zip": {
+      "required": true
+    },
+    "file/Repurposed_Structures-Better_Desert_Temples_v8.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Dungeons_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Jungle_Temples_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Monuments_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Nether_Fortress_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Strongholds_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Witch_Huts_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bountiful_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Farmers_Delight_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Irons_Spells_n_Spellbooks_v2.zip": {
+      "hidden": true
+    },
+    "file/SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip": {
+      "hidden": true
+    },
+    "file/SmoothFont_1.20.zip": {
+      "required": true
+    },
+    "file/UniqueDyes.zip": {
+      "required": true
+    },
+    "file/VerticalNuggets-1.20-1.0.2.1.zip": {
+      "required": true
+    }
+  }
 }
